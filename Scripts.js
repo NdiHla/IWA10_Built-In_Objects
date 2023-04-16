@@ -33,8 +33,8 @@ const holidays = {
     },
     6: {
         id: 6,
-        name: 'Christmas Day',
-        date: new Date(`25 December ${currentYear} 13:25`),
+        name: 'X-mass Day',
+        date: new Date(`25 December ${currentYear} 00:00`),
     },
     7: {
         id: 7,
@@ -55,7 +55,7 @@ const futureId = 9
 
 console.log(holidays.futureId.name || 'ID {futureId} not created yet')
 
-copied = holidays.christmas
+copied = holidays.X-mass
 copied = { name: 'X-mas Day' }
 correctDate = copied.date
 correctDate.hours = 0
